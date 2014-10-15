@@ -13,3 +13,17 @@
 # - A temperature of over 105F
 # - A temperature of over 102F and they have been sick in the last 24 hours
 # - A temperature over 100, OR they've been sick in the last 24 hours, AND they've recently travelled to West Africa.
+x = 1
+while x == 1:
+    print "What is your temperature?"
+    temp = int(raw_input())
+    print "Have you been sick in the last 24 hours?"
+    fate = raw_input()
+    print "Have you recently travled traveled to Africa?"
+    Africa == raw_input()
+    if temp > 105 and fate == "no":
+        print "Go to the hospital" 
+
+
+print "Are you the last pateint?"
+last = raw_input
