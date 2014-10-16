@@ -20,10 +20,17 @@ while x == 1:
     print "Have you been sick in the last 24 hours?"
     fate = raw_input()
     print "Have you recently travled traveled to Africa?"
-    Africa == raw_input()
-    if temp > 105 and fate == "no":
+    Africa = raw_input()
+    if temp < 105:
+        x = 1
+    if temp > 102 and fate == "yes":
+        print "Go to the hospital."
+        x = x - 1
+    if fate == "yes" and Africa == "yes":
+        print "Go to the hospital."
+    if temp > 100 and Africa == "yes":
         print "Go to the hospital" 
-
-
-print "Are you the last pateint?"
-last = raw_input
+    print "Are you the last patient?"
+    patient = raw_input()
+    if patient == "yes":
+        print ""
